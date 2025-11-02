@@ -1,0 +1,28 @@
+    [build-system]
+    requires = []
+    build-backend = ""
+
+    [project]
+    name = "hww-essentials"
+    version = "1.0"
+    authors = [
+      { name="jhfhngj", email="ezzeldinahmed1@outlook.com" },
+    ]
+    maintainers = [
+      { name="jhfhngj", email="ezzeldinahmed1@outlook.com" }
+    ]
+    description = "This package contains the essentials for HouseWideWeb, a decentralized network system. It includes the DNS, a server framework, and a client that you can customize."
+    readme = "README.md"
+    requires-python = ">=3.7"
+    license = "CC0"
+    keywords = ["network", "decentralized", "house", "web", "housewide", "dns"]
+    classifiers = [
+        "Intended Audience :: Developers",
+        "Development Status :: 3 - Alpha",
+        "Programming Language :: Python :: 3",
+        "License :: CC0",
+        "Operating System :: OS Independent",
+    ]
+    dependencies = []
+    [project.urls]
+    Homepage = "https://github.com/jhfhngj/HouseWideWeb"
