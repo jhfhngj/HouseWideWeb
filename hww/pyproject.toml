@@ -3,7 +3,7 @@
     build-backend = "setuptools.build_meta"
 
     [project]
-    name = "hww-essentials"
+    name = "hww"
     version = "1.0"
     authors = [
       { name="jhfhngj", email="ezzeldinahmed1@outlook.com" },
