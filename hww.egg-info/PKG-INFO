@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: hww
-Version: 1.0
+Version: 1.1
 Summary: This package contains the essentials for HouseWideWeb, a decentralized network system. It includes the DNS, a server framework, and a client that you can customize.
 Author-email: jhfhngj <ezzeldinahmed1@outlook.com>
 Maintainer-email: jhfhngj <ezzeldinahmed1@outlook.com>
