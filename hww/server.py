@@ -1,5 +1,5 @@
 import socket
-from .config import HOST, PORT, BUFFER_SIZE
+from .configserver import HOST, PORT, BUFFER_SIZE
 from .handlers import handle_client
 
 class HWWServer:

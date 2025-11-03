@@ -1,5 +1,5 @@
 import socket
-from .config import HOST, PORT, BUFFER_SIZE
+from .configdns import HOST, PORT, BUFFER_SIZE
 from .registry import load_registry, save_registry
 
 class DNSRegistryServer:

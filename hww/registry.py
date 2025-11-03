@@ -1,6 +1,6 @@
 import json
 import os
-from .config import REGISTRY_FILE
+from .configdns import REGISTRY_FILE
 
 def load_registry():
     if not os.path.exists(REGISTRY_FILE):
