@@ -1,6 +1,6 @@
     [build-system]
-    requires = []
-    build-backend = ""
+    requires = ["setuptools>=61.0", "wheel"]
+    build-backend = "setuptools.build_meta"
 
     [project]
     name = "hww-essentials"
@@ -14,13 +14,13 @@
     description = "This package contains the essentials for HouseWideWeb, a decentralized network system. It includes the DNS, a server framework, and a client that you can customize."
     readme = "README.md"
     requires-python = ">=3.7"
-    license = "CC0"
+    license = "CC0-1.0"
     keywords = ["network", "decentralized", "house", "web", "housewide", "dns"]
     classifiers = [
         "Intended Audience :: Developers",
         "Development Status :: 3 - Alpha",
         "Programming Language :: Python :: 3",
-        "License :: CC0",
+        "License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
         "Operating System :: OS Independent",
     ]
     dependencies = []
