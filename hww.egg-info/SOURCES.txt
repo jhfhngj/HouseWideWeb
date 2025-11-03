@@ -3,9 +3,9 @@ README2.md
 pyproject.toml
 hww/__init__.py
 hww/client.py
-hww/config-dns.py
-hww/config-server.py
 hww/config.py
+hww/configdns.py
+hww/configserver.py
 hww/dns.py
 hww/handlers.py
 hww/registry.py
