@@ -12,7 +12,7 @@
       { name="jhfhngj", email="ezzeldinahmed1@outlook.com" }
     ]
     description = "This package contains the essentials for HouseWideWeb, a decentralized network system. It includes the DNS, a server framework, and a client that you can customize."
-    readme = "README.md"
+    readme = "README2.md"
     requires-python = ">=3.7"
     license = "CC0-1.0"
     keywords = ["network", "decentralized", "house", "web", "housewide", "dns"]

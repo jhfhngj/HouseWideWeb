@@ -2,6 +2,9 @@
 Welcome to HouseWideWeb, a decentralized network system designed to be lightweight, flexible, and fun to use. Whether you're building a local service or a distributed app, HWW gives you the tools to register, resolve, and connect — all without the baggage of traditional DNS.
 
 ## 🚀 Getting Started
+
+Here's how you can get started with HouseWideWeb easily!
+
 ### 1. Run the DNS Registry Server
 
 This is the backbone of HWW — a simple DNS registry that maps domains to IP addresses and ports.
