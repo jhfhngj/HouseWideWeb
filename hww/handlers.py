@@ -1,4 +1,4 @@
-def handle_client(conn, addr, buffer_size):
+def handle_client(conn, addr, buffer_size, morelogic, logicinput):
     print(f"Connected by {addr}")
     conn.sendall(b"Hi there!\n")
 
@@ -9,6 +9,7 @@ def handle_client(conn, addr, buffer_size):
                 print("Client disconnected.")
                 break
             print("Received:", data.decode())
-            # Add custom logic here if needed
+            # Pass conn and addr to your logic
+            morelogic(logicinput, conn, addr, data)
     except Exception as e:
         print("Error:", e)

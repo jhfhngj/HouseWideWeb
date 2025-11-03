@@ -7,7 +7,7 @@ class HWWServer:
         self.host = host
         self.port = port
 
-    def start(self):
+    def start(self, extra, inputs):
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             s.bind((self.host, self.port))
             s.listen()
@@ -16,4 +16,4 @@ class HWWServer:
             while True:
                 conn, addr = s.accept()
                 with conn:
-                    handle_client(conn, addr, BUFFER_SIZE)
+                    handle_client(conn, addr, BUFFER_SIZE, extra, inputs)
