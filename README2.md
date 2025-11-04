@@ -28,8 +28,23 @@ from hww import HWWServer
 server = HWWServer()
 server.start()
 ```
+But guess what? That's just a starter blank server.
 
 You can extend `HWWServer` with custom logic to handle incoming connections. It's lightweight, so any computer can be a server.
+
+To do so, use this as an example. This is an echo server.
+
+```
+from hww import *
+
+def handler(input, conn, addr, data):
+    send = input.encode() + data
+    conn.sendall(send)
+
+# Start the server
+hww = HWWServer()
+hww.start(handler, "")
+```
 
 ### 3. Register Your Domain
 
