@@ -34,7 +34,11 @@ class DNSRegistryServer:
             print(f"Registering domain: {domain}")
             registry[domain] = {"ip": addr[0], "port": addr[1]}
             save_registry(registry)
-            conn.sendall(b"HWW/1.0 100 OK\n")
+            
+            # tell the client what port we saw them on
+            reply = f"HWW/1.0 100 OK\nYour port: {addr[1]}\n"
+            conn.sendall(reply.encode())
+
 
         elif message.startswith("get "):
             domain = message[4:]
