@@ -68,8 +68,7 @@ from hww import DNSClient, ServiceConnector
 dns = DNSClient()
 status, ip_port = dns.send_request("get", "hww://example.com")
 
-if "100 OK" in status and ip_port:
-    ip, port = ip_port.split(":")
+if "100 OK" in status and ip and port:
     connector = ServiceConnector(ip, int(port))
     connector.interact()
 else:
